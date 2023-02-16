@@ -14,13 +14,19 @@ body {
 }
 
 .apresentacao {
+    margin: 5%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .destaqueTitulo {
     color: #06729D;
     font-weight: bold;
+}
+
+section {
+    padding-right: 30px;
 }
 
 .links a {
