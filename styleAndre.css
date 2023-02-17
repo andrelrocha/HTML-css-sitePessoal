@@ -24,17 +24,26 @@ span {
 }
 
 .links {
-    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    padding-bottom: 50px;
 }
 
-.links a {
-    color: #078FC5;
-    flex-direction: row;
-    margin-right: 20px;
-}
-
-.links a + a {
-    margin-left: 20px;
+.links__link {
+    background-color: #06729D;
+    color: #888888;
+    text-decoration: none;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    padding: 10px 5px;
+    font-weight: 600;
+    margin: 30px;
 }
 
 img {
