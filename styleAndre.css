@@ -23,13 +23,18 @@ span {
     font-weight: bold;
 }
 
-.links a {
-    padding-left: 30px;
-    padding-right: 30px;
+.links {
     padding-bottom: 30px;
+}
+
+.links a {
     color: #078FC5;
-    display: inline-block;
-    text-align: center;
+    flex-direction: row;
+    margin-right: 20px;
+}
+
+.links a + a {
+    margin-left: 20px;
 }
 
 img {
