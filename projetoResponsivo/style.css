@@ -53,15 +53,22 @@ section {
     gap: 32px
 }
 
+.apresentacao__links__subtitulo {
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
 .apresentacao__links__link {
-    background-color: #06729D;
     color: #888888;
+    width: 380px;
     text-align: center;
     text-decoration: none;
-    border-radius: 16px;
+    border-radius: 12px;
     font-size: 24px;
     font-weight: 600;
-    max-width: 280px;
+    padding: 21.5px 0;
+    border: 2px groove #06729D;
 }
 
 img {
