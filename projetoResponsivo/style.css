@@ -14,7 +14,7 @@ body {
 }
 
 .apresentacao {
-    margin: 10% 15%;
+    margin: 3% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -62,17 +62,25 @@ section {
 .apresentacao__links__link {
     color: #888888;
     width: 380px;
-    text-align: center;
     text-decoration: none;
     border-radius: 12px;
     font-size: 24px;
     font-weight: 600;
     padding: 21.5px 0;
     border: 2px groove #06729D;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
 }
 
-img {
-    width: 38%;
+.apresentacao__links__link img{
+    width: 8%;
+    display: inline;
+    vertical-align: middle;
+}
+
+.foto__perfil {
+    width: 40%;
     display: block;
     margin: 0 auto;
 }
