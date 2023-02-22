@@ -73,6 +73,12 @@ section {
     gap: 16px;
 }
 
+.apresentacao__links__link:hover {
+    background: linear-gradient(#888888, #FFFFFF);
+    color: #06729D;
+    transform: scale(1.1);
+}
+
 .apresentacao__links__link img{
     width: 8%;
     display: inline;
